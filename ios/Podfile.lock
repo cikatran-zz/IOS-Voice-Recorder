@@ -1,0 +1,35 @@
+PODS:
+  - React/Core (0.41.0):
+    - React/cxxreact
+    - React/yoga
+  - React/cxxreact (0.41.0):
+    - React/jschelpers
+  - React/jschelpers (0.41.0)
+  - React/RCTImage (0.41.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.41.0):
+    - React/Core
+  - React/RCTText (0.41.0):
+    - React/Core
+  - React/RCTWebSocket (0.41.0):
+    - React/Core
+  - React/yoga (0.41.0)
+
+DEPENDENCIES:
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
+
+SPEC CHECKSUMS:
+  React: f290d57d4e567e69ef5a231ff461dbf9dac8da46
+
+PODFILE CHECKSUM: 5211c70d6aa4502cdb66d8153c6e5507cf130ead
+
+COCOAPODS: 1.1.1
